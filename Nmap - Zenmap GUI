@@ -1,3 +1,18 @@
+"""
+Nmap Automation Tool
+
+This Python script was created in 2020 to automate the use of the Nmap
+Zenmap GUI. It uses PyAutoGUI to control the application, enter IP
+addresses, initiate scans, and save the resulting scan files.
+
+The script allows multiple IP addresses to be processed sequentially,
+reducing the need for repetitive manual interaction with the Nmap GUI.
+
+Built with:
+- Python
+- PyAutoGUI
+"""
+
 import pyautogui
 import time
 import os
